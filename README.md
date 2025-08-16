@@ -45,7 +45,7 @@ The system supports multiple domains:
 ## How to Run
 1. **Clone the repo**
    ```bash
-   git clone https://github.com/your-username/visual-document-rag.git
+   git clone https://github.com/praneethaneelapareddigari/visual-rag.git
    cd visual-document-rag
 Create and activate a virtual environment
 
@@ -117,6 +117,7 @@ OCR Test: Successfully extracted text + table from scanned PDFs with charts
 👩‍💻 Author
 N PRANEETHA – CSE (Batch 2025)
 ---
+
 
 
 
