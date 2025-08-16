@@ -72,8 +72,8 @@ Query from Law PDF
 
 Cross-domain Query
 
-🔗 Demo
-👉 Deployed App Link
+ Deployed App Link
+ https://huggingface.co/spaces/Praneethaneelapareddigari/visual-rag
 
 📊 Evaluation
 Latency: ~X sec per query
@@ -117,6 +117,7 @@ OCR Test: Successfully extracted text + table from scanned PDFs with charts
 👩‍💻 Author
 N PRANEETHA – CSE (Batch 2025)
 ---
+
 
 
 
