@@ -4,6 +4,23 @@ import json
 import time
 import tempfile
 import streamlit as st
+# --- Hugging Face Spaces / Linux runtime helpers ---
+import shutil
+import pytesseract
+
+# Ensure Tesseract and Poppler are discoverable in the Space
+pytesseract.pytesseract.tesseract_cmd = shutil.which("tesseract") or "/usr/bin/tesseract"
+os.environ["PATH"] = os.environ.get("PATH", "") + ":/usr/bin:/usr/local/bin"
+
+# Prefer a public, lightweight embedding model to avoid auth/gated downloads
+# (If your rag_pipeline.py already sets this, you can remove the next 4 lines.)
+try:
+    from sentence_transformers import SentenceTransformer  # noqa: F401
+    os.environ.setdefault("EMB_MODEL_NAME", "sentence-transformers/all-MiniLM-L6-v2")
+except Exception:
+    pass
+
+
 
 from doc_loader import load_document
 from figure_extractor import extract_figures

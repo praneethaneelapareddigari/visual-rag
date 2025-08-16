@@ -1,0 +1,17 @@
+# Ignore Python cache & bytecode
+__pycache__/
+*.pyc
+
+# Ignore local virtual environments
+.venv/
+venv/
+
+# Ignore git repo files
+.git/
+.gitignore
+
+# Ignore OS/editor junk
+.DS_Store
+
+# Ignore heavy assets not needed in container
+screenshots/*.psd
