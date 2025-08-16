@@ -84,24 +84,25 @@ OCR Test: Successfully extracted text + table from scanned PDFs with charts
 
 ## Screenshots
 
-### Multimodal Indexing
-![Multimodal Index](./screenshots/multimodal_index.png)
+## 📸 Screenshots
 
-### Finance Domain – Empty Query
-![Finance Empty](./screenshots/finance_empty.png)
+### 1. Empty Input State
+![Empty State](./screenshots/finance_empty.png)
 
-### Finance Domain – Text Query
-![Finance Text](./screenshots/finance_text.png)
+### 2. Extracted Text
+![Extracted Text](./screenshots/finance_text.png)
 
-### Finance Domain – Layout Extraction
-![Finance Layout](./screenshots/finance_layout.png)
+### 3. Extracted Tables
+![Extracted Tables](./screenshots/finance_table.png)
 
-### Finance Domain – Figures
-![Finance Figures](./screenshots/finance_figures.png)
+### 4. Layout Analysis
+![Layout Analysis](./screenshots/finance_layout.png)
 
-### Finance Domain – Figures with OCR
-![Finance Figures OCR](./screenshots/finance_figures_ocr.png)
+### 5. Figures Detection
+![Figures](./screenshots/finance_figures.png)
 
+### 6. OCR on Figures
+![Figures OCR](./screenshots/finance_figures_ocr.png)
 
 
 📜 Submission Checklist
