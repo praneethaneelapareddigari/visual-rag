@@ -1,0 +1,17 @@
+streamlit
+langchain
+langchain-openai
+langchain-community
+langchain-text-splitters
+faiss-cpu
+pymupdf
+pdfplumber
+camelot-py
+opencv-python
+pillow
+pytesseract
+sentence-transformers
+huggingface_hub
+ragas
+datasets
+evaluate

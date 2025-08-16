@@ -1,0 +1,16 @@
+.DS_Store
+__pycache__/
+*.pyc
+.venv/
+venv/
+models/
+screenshots/
+data/*.pdf
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.bin
+*.safetensors
+*.onnx
+*.pt
